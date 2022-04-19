@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: rgb(172, 172, 172);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background: hsla(274, 100%, 33%, 1);
+    background: linear-gradient(140deg, hsla(274, 100%, 33%, 1) 0%, hsla(245, 100%, 16%, 1) 0%, hsla(271, 100%, 34%, 1) 46%, hsla(271, 100%, 53%, 1) 68%, hsla(271, 100%, 59%, 1) 87%, hsla(230, 100%, 66%, 1) 100%);
+    background: -moz-linear-gradient(140deg, hsla(274, 100%, 33%, 1) 0%, hsla(245, 100%, 16%, 1) 0%, hsla(271, 100%, 34%, 1) 46%, hsla(271, 100%, 53%, 1) 68%, hsla(271, 100%, 59%, 1) 87%, hsla(230, 100%, 66%, 1) 100%);
+    background: -webkit-linear-gradient(140deg, hsla(274, 100%, 33%, 1) 0%, hsla(245, 100%, 16%, 1) 0%, hsla(271, 100%, 34%, 1) 46%, hsla(271, 100%, 53%, 1) 68%, hsla(271, 100%, 59%, 1) 87%, hsla(230, 100%, 66%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5E00A6", endColorstr="#070054", GradientType=1 );
+}
