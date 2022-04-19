@@ -23,30 +23,30 @@ function Car() {
                 </button>
           </div>
 
-          <div class="block lg:flex md:items-center lg:w-auto pr-0 justify-end mr-0">
-              <div class="text-sm lg:flex-grow md:flex-none">
+          <div class="block lg:flex md:items-center lg:w-auto pr-3 justify-end mr-3">
+              <div class="text-sm lg:flex md:flex-none justify-around">
                 <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                  Docs
+                  Home
                 </a>
                 <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                  Examples
+                  About
                 </a>
                 <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                  Blog
+                  Contact Us
                 </a>
                     </div>
             </div>
       </nav>
 
-  <div className="flex px-3 w-full">
-      <div className="w-1/2">
-          <h1>Let's <span><a href="#">Find</a></span> Your Next Reading Spree</h1>
+  <div className="flex px-3 w-full pt-7 center justify-between items-center">
+      <div className="w-1/2 pt-16 pl-2 text-white ">
+          <h1 className='text-7xl pb-6 font-bold'>Let's <span><a href="#">Find</a></span> Your Next Reading Spree</h1>
           <p>Made this site with readers like me in mind. Hope you find it somehow helpful and fun. Dive into it!</p>
           <p>All Traders... Little gift for you here!</p>
       </div>
   
-      <div class="header-image">
-                <img src={womanreading} alt="woman reading" />
+      <div class="header-image flex justify-end">
+                <img src={womanreading} alt="woman reading" className='' />
             </div>
   </div>
 
