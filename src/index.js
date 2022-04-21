@@ -1,46 +1,44 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import App from './Product';
+import Modal from './Modal';
 import './index.css';
-import womanreading from './images/woman-reading.png';
-import blackivlogo1 from './images/blackivlogo-removebg.png';
+import womanreading from './assets/woman-reading.png';
+
 
 
 function Car() {
   return <React.Fragment>
-    <div className="navbar sticky top-0 z-50 justify-start py-4 pr-0 flex-nowrap bg-white">
-  <div className="navbar-start w-1/4">
-    <div className="dropdown">
-      <label tabindex="0" className="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-      </label>
-      <ul tabindex="0" className="bg-white menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52">
-      <li tabindex="0">
-        <a>
-          Demos
-          <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-        </a>
-        <ul className="p-2 bg-white">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
-          <li><a>Submenu 3</a></li>
-          <li><a>Submenu 4</a></li>
-        </ul>
-      </li>
-      <li tabindex="0">
-        <a>
-          Categories
-          <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-        </a>
-        <ul className="p-2 bg-white">
-          <li><a>Submenu 1</a></li>
-          <li><a>Submenu 2</a></li>
-          <li><a>Submenu 3</a></li>
-          <li><a>Submenu 4</a></li>
-        </ul>
+    <div className="navbar sticky top-0 z-50 justify-start py-4 pr-0 flex-nowrap text-black text-bold bg-[#EBEBEB]">
+      <div className="navbar-start w-1/4">
+        <div className="dropdown">
+          <label tabindex="0" className="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabindex="0" className="bg-white menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52">
+            <li tabindex="0">
+              <a>
+                Demos
+                <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+              </a>
+              <ul className="p-2 bg-white">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+                <li><a>Submenu 3</a></li>
+                <li><a>Submenu 4</a></li>
+              </ul>
+            </li>
+            <li tabindex="0">
+              <a>
+                Categories
+                <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+              </a>
+              <ul className="p-2 bg-white">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+                <li><a>Submenu 3</a></li>
+                <li><a>Submenu 4</a></li>
+              </ul>
       </li>
       <li tabindex="0">
         <a>
@@ -160,6 +158,13 @@ function Car() {
       </div>
 
     </header>
+
+    <section className='px-10 pt-10'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-4 px-4'>
+        <App />
+      </div>
+    </section>
+
         </React.Fragment>;
 }
 
