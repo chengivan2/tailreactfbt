@@ -17,8 +17,8 @@ function Modal() {
 }
 
 // The following script will facilitate the opening of the pop up
-/*
-<script>const modalbg = document.getElementById('modal-bg');
+
+const modalbg = document.getElementById('modal-bg');
   const modalSwitch = document.getElementById('modal-switch');
   const modalBox = document.getElementById('modal-box');
   const modalClose = document.getElementById('modal-close');
@@ -34,6 +34,5 @@ function Modal() {
     modalBox.classList.remove('hidden')
     modalbg.classList.remove('hidden')
   });
-</script>
-*/
+
 export default Modal;
