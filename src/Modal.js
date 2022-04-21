@@ -18,11 +18,11 @@ function Modal() {
 
 // The following script will facilitate the opening of the pop up
 
-const modalbg = document.getElementById('modal-bg');
-  const modalSwitch = document.getElementById('modal-switch');
-  const modalBox = document.getElementById('modal-box');
-  const modalClose = document.getElementById('modal-close');
-  modalbg.addEventListener("click", function() {
+constmodalbg = document.getElementById('modal-bg');
+const modalSwitch = document.getElementById('modal-switch');
+const modalBox = document.getElementById('modal-box');
+const modalClose = document.getElementById('modal-close');
+modalbg.addEventListener("click", function() {
     modalBox.classList.add('hidden')
     modalbg.classList.add('hidden')
   });
