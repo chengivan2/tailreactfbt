@@ -168,6 +168,13 @@ function Car() {
         </React.Fragment>;
 }
 
+//Render just before the closing body tag </body>
+ReactDOM.render(
+  <React.StrictMode>
+    <Product />
+  </React.StrictMode>,
+);
+
 const container = document.getElementById('root');
 const root = createRoot(container); 
 root.render(<Car />);
