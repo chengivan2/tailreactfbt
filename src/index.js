@@ -1,7 +1,6 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './Product';
-import Modal from './Modal';
+import ReactDOM,{ createRoot } from 'react-dom/client';
+import App from './Product'
 import './index.css';
 import womanreading from './assets/woman-reading.png';
 
@@ -167,13 +166,6 @@ function Car() {
 
         </React.Fragment>;
 }
-
-//Render just before the closing body tag </body>
-ReactDOM.render(
-  <React.StrictMode>
-    <Product />
-  </React.StrictMode>,
-);
 
 const container = document.getElementById('root');
 const root = createRoot(container); 
