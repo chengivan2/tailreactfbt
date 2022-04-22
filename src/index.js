@@ -8,7 +8,7 @@ import womanreading from './assets/woman-reading.png';
 
 function Car() {
   return <React.Fragment>
-    <div className="navbar sticky top-0 z-50 justify-start py-4 pr-0 flex-nowrap text-black text-bold bg-[#EBEBEB]">
+    <div className="navbar sticky top-0 z-50 justify-start py-4 pr-0 flex-nowrap text-black text-bold  bg-[#d8d8d8]">
       <div className="navbar-start w-1/4">
         <div className="dropdown">
           <label tabindex="0" className="btn btn-ghost lg:hidden">
