@@ -159,14 +159,15 @@ function Car() {
     </header>
 
     <section className='px-0 md:px-10 flex justify-center pt-10'>
-      <div className='grid grid-cols-1 md:grid-cols-4 gap-20 px-4'>
+      <div className='grid grid-cols-1 lg:grid-cols-4 gap-20 px-4'>
         <App />
       </div>
     </section>
 
     <footer className="footer mt-[50px] p-10 bg-[#d8d8d8] mb-0 text-base-content">
-      <div className="items-center grid-flow-col">
-        <p className='md:pr-16'><span className='font-bold text-[#252525] pb-2'>BoroBazar</span> <br/>We offers high-quality foods and the best delivery service, and the food market you can blindly trust</p>
+      <div className="flex flex-col pr-20">
+        <p className='md:pr-16 h'><span className='font-bold text-[#252525] '>BoroBazar</span></p><br/>
+        <p>We offers high-quality foods and the best delivery service, and the food market you can blindly trust</p>
       </div>
 
       <div>
