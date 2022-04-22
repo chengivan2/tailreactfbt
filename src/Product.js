@@ -8,7 +8,7 @@ function App() {
         const modalSwitch = document.getElementById('modal-switch');
         const modalBox = document.getElementById('modal-box');
         const modalClose = document.getElementById('modal-close');
-        
+
         modalbg.addEventListener("click", function() {
             modalBox.classList.add('hidden')
             modalbg.classList.add('hidden')
@@ -28,7 +28,7 @@ function App() {
     return (
 
         Array.apply(null, { length: 10 }).map((e, i) => (
-            <div className="card w-80 bg-white shadow-xl" key={i}>
+            <div className="card w-max px-5 outline-offset-0 h-max bg-white hover:shadow-inner drop-shadow-xl" key={i}>
                 <figure><img src={image1} alt="Shoes" /></figure>
                 <div className="card-body">
                     <p className='text-bold-700'>$1.99</p>
