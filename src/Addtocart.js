@@ -3,7 +3,7 @@ import './index.css';
 
 function AddToCart() {
     return (
-        <button className="btn btn-wide">Wide</button>
+        <button className="btn btn-wide">Add to cart</button>
     );
 }
 
